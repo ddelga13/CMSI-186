@@ -8,7 +8,7 @@ class ClockSolver1 {
    System.out.println ("no argument given.");
   }
 Clock clock = new Clock(0.0, 0.0, 0.0, slice);
-  System.out.println ("slice: " + slice);
+  System.out.println ("slice: " + slice + "s");
   System.out.println ("Current time: " + clock);
   Boolean alreadyPrinted = true;
   for (int i = 0; i < 60*60*12/slice; i++){
