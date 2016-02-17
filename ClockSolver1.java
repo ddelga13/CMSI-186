@@ -18,7 +18,6 @@ class ClockSolver1 {
      System.out.println("Current time: " + clock + " Current angle: " + clock.getAngleBetween());
     }
     alreadyPrinted = false;
-    // System.out.println ("Minute angle: " + clock.getMinuteAngle());
    } else {
     alreadyPrinted = true;
    }
