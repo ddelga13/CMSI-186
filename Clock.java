@@ -46,8 +46,6 @@ class Clock {
   }
  }
 
- //SLICE = 60 SECONDS, FOR NOW, OKAY??
-
  public double getMinuteAngle(){
   return (this.minute + (this.second/60)) * 6;
  }
