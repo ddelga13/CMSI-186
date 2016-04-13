@@ -15,7 +15,7 @@ public class Rectangle {
   }
 
   public double getArea(){
-    return ((this.bottomRightCorner.getX() - this.topLeftCorner.getX()) * (this.bottomRightCorner.getY() - this.topLeftCorner.getY()));
+    return ((this.bottomRightCorner.getX() - this.topLeftCorner.getX()) * (this.topLeftCorner.getY() - this.bottomRightCorner.getY()));
   }
 
 
