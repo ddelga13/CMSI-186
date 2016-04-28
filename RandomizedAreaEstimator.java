@@ -1,11 +1,22 @@
 public class RandonizedAreaEstimator {
-  public shape [] ();
+  public shape [];
+  public static void main(String[] args){
+  	//parse the input, make the shapes
+  	for(int i = 0; i < args.length; i++){
+  		if( rectangle) {
+  			Rectangle rect = new Rectangle(new Point(Double.parseDouble(args[i + 1]), Double.parseDouble(args[i + 2]))
+  										 , new Point(Double.parseDouble(args[i + 3]), Double.parseDouble(args[i + 4]));
+  		}
+  	}
+  }
+  
+}
 
 
 //shape [] = {triangle, circle circle}
 //Rectangle.getBigBox (smallest x, smallest y, biggest x, biggest y) (use forloop to manually find these)
 
-//generate a million points in big getBigBox
+//generate a million points in big getBigBox (two math.random's)
 //intersecting
 //check if the point is in the shape, for each shape in the array
 //then, 
@@ -27,3 +38,7 @@ public class RandonizedAreaEstimator {
 
 //shape if (point is in shape)
 //store in individual shape instance (class)
+
+
+//triangle-- do it the vector way
+//circle-- is the distance bw point and center > or < than radius?
