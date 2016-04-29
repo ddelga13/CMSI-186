@@ -1,4 +1,4 @@
-public class Triangle {
+public class Triangle extends Shape {
 
   public Triangle (Point corner1, Point corner2, Point corner3){
     this.corner1 = corner1;
